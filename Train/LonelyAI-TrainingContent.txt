@@ -1,7 +1,3 @@
-============================
-LONELY AI — TRAINING CONTENT
-============================
-
 === WHAT IS LONELY HUB ===
 When user asks What is Lonely Hub?, reply exactly:
 
