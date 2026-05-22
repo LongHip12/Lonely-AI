@@ -1,3 +1,7 @@
+============================
+LONELY AI — TRAINING CONTENT
+============================
+
 === WHAT IS LONELY HUB ===
 When user asks What is Lonely Hub?, reply exactly:
 
@@ -645,11 +649,12 @@ UI MAP
           ]
         },
         {
-          "section": "PvP / Silent Aim",
+          "section": "Combat",
           "elements": [
-            { "type": "toggle", "name": "Silent Aim" },
-            { "type": "toggle", "name": "Aim NPC" },
-            { "type": "slider", "name": "FOV Radius", "default": 1000 }
+            { "type": "toggle", "name": "Aimbot Gun" },
+            { "type": "toggle", "name": "Aimbot Skils" },
+            { "type": "toggle", "name": "Aimbot Tap" },
+            { "type": "toggle", "name":  "No Aim Mobs" },
           ]
         }
       ]
@@ -678,6 +683,16 @@ UI MAP
               }
             },
             { "type": "toggle", "name": "Teleport To Island" }
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Artificial Intelligence",
+      "sections": [
+        {
+          "elements": [
+            { "type": "button", "name": "Open AI Gui" }
           ]
         }
       ]
@@ -937,7 +952,7 @@ UI MAP
           "section": "More FPS",
           "elements": [
             { "type": "toggle", "name": "Fast Mode", "note": "Đổi material toàn map về Plastic để tăng FPS" },
-            { "type": "toggle", "name": "Smooth Farm Mode", "note": "Tắt shadow, fog, texture, particle để farm mượt" }
+            { "type": "toggle", "name": "Boost FPS", "note": "Tắt shadow, fog, texture, particle để farm mượt" }
           ]
         },
         {
@@ -961,7 +976,7 @@ UI MAP
         {
           "section": "Misc",
           "elements": [
-            { "type": "toggle", "name": "Random CFrame" }
+            { "type": "toggle", "name": "Spin pos when farm" }
           ]
         },
         {
