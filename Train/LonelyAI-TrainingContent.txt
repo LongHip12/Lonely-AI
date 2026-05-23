@@ -702,7 +702,7 @@ UI MAP
           "section": "Chat with AI",
           "elements": [
             { "type": "button", "name": "Open AI Gui" },
-            { "type": "paragraph", "name": "If you need help, just ask the AI what you need! List Of AI Model:", "content": "Lonely AI: Laguna M.1\nQuick Chat: OpenAI Gpt 4o mini\nCoder: Deepseek v4 flash\nReasoner: Nemotron 3\nBalanced: Meta\nLlama 3.3 70b\nScholar: Kimi k2.6\nOwl: Owl Alpha" }
+            { "type": "paragraph", "name": "If you need help, just ask the AI what you need!" }
           ]
         }
       ]
